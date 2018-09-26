@@ -60,40 +60,44 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 11);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */,
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */
+/******/ ({
+
+/***/ 11:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(6);
+module.exports = __webpack_require__(12);
 
 
 /***/ }),
-/* 6 */
+
+/***/ 12:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__test__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__test__ = __webpack_require__(13);
 
-document.getElementById('test').innerHTML = "js.js测试文本";
+const child = document.createElement('div');
+const node = document.createTextNode('test');
+child.setAttribute('id', 'test');
+child.appendChild(node);
+document.body.appendChild(child);
+child.innerHTML = Object(__WEBPACK_IMPORTED_MODULE_0__test__["a" /* default */])();
 
 /***/ }),
-/* 7 */
+
+/***/ 13:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export default */
+/* harmony export (immutable) */ __webpack_exports__["a"] = addDiv;
 function addDiv() {
-    document.body.innerHTML = 'test';
+    return document.getElementById('test').innerHTML = '第二个js文件测试，并使用了多个scss中的样式。';
 }
 
 /***/ })
-/******/ ]);
+
+/******/ });

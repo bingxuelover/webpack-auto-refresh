@@ -1,15 +1,1 @@
-body {
-    margin: 0;
-    padding: 20px;
-}
-.font {
-  font-size: 16px;
-  color: blue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  line-height: 50px;
-  background-color: #abdb8a; }
-#test {
-  background-color: #e7f3f6;
-  line-height: 50px; }
+body{margin:0;padding:20px}

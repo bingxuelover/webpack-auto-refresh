@@ -74,9 +74,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_css_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_css_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__css_css_scss__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__css_css_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__css_css_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_test_scss__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_test_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__css_test_scss__);
-
 
 
 
@@ -89,7 +86,7 @@ document.body.innerHTML = Object(__WEBPACK_IMPORTED_MODULE_0__bar__["a" /* defau
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = bar;
 function bar() {
-    return "<div class='font'>app 入口js，有css文件引入.</div>";
+  return "<div class='font'>app 入口js，有css文件引入.</div>";
 }
 
 /***/ }),
@@ -100,12 +97,6 @@ function bar() {
 
 /***/ }),
 /* 3 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 4 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

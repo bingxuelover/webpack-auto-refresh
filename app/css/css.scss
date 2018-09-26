@@ -1,9 +1,12 @@
+$font: purple;
+$bg: skyblue;
 .font {
-    font-size: 16px;
-    color: blue;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    line-height: 50px;
-    background-color: #abdb8a;
+  font-size: 16px;
+  color: $font;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 50px;
+  background-color: $bg;
 }
+@import "test";
